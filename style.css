@@ -20,8 +20,8 @@
   .center-div {
     width: 10rem;
     height: 10rem;
-   /* background-color: #ee5253; */
-   background-color:rgb(255, 196, 0);
+   background-color:black; 
+   /* //background-color:rgb(255, 196, 0); */
     position: relative;
     transform: rotate(45deg);
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -30,11 +30,11 @@
     animation: hbeat 1s linear infinite;
   }
   #atul{
-    text-shadow:0 3px 4px black;
+    text-shadow:0 3px 4px red;
     color:white;
   }
   #manya{
-    text-shadow:0 1px 4px black;
+    text-shadow:0 1px 4px red;
     color:white;
   }
   
@@ -42,8 +42,8 @@
     content: "";
     width: 100%;
     height: 100%;
-    /* background-color: #ee5253; */
-    background-color:rgb(255, 196, 0);
+     background-color: black; 
+    /* background-color:rgb(255, 196, 0); */
     position: absolute;
     border-radius: 50%;
     transform: translateY(-50%);
@@ -52,14 +52,14 @@
     content: "";
     width: 100%;
     height: 100%;
-    /* background-color: #ee5253; */
-    background-color:rgb(255, 196, 0);
+     background-color: black; 
+    /* background-color:rgb(255, 196, 0); */
     position: absolute;
     border-radius: 50%;
     transform: translateX(-50%);
   }
   .footer{
-    color:blue;
+    color:red;
   }
   
   @keyframes hbeat {
